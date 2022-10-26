@@ -13,7 +13,7 @@ body {
 .matrix img {
   width: 100%;
 }
-.matrix .more-inf {
+.matrix .inf {
   font-family: fantasy, cursive;
 }
 
@@ -128,7 +128,7 @@ button.delete img:hover {
 }
 
 /* Completed */
-ul#completed-tasks label {
+ul#tasks label {
   text-decoration: line-through
   color: #888;
 }
