@@ -6,24 +6,24 @@
   font-family: Lato, sans-serif;
 }
 
-.eisenhower_matrix {
+.eisenhower-matrix {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.eisenhower_matrix img {
+.eisenhower-matrix__img {
   width: 100%;
 }
 
-.inf {
+.eisenhower-matrix__info {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
 
-  .matrix {
+  .eisenhower-matrix {
     text-align: center;
   }
 
@@ -35,13 +35,13 @@
   margin: 0 auto;
 }
 
-.task {
+.todo-list__task{
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
 
-.task-row-wrapper {
+.todo-list__task-row {
   display: flex;
 }
 
@@ -56,11 +56,11 @@ h3 {
 }
 
 input,
-button {
+.button {
   outline: none;
 }
 
-button {
+.button {
   background: none;
   border: 0px;
   color: #888;
@@ -70,7 +70,7 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.button:hover {
   color: #3a3a3a;
 }
 
